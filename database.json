@@ -29,21 +29,6 @@
       "status": false,
       "createdAt": 1617440961000,
       "modifiedAt": 1618301961000
-    },
-    {
-      "id": 3,
-      "firstName": "Kizzie",
-      "lastName": "Shama",
-      "username": "kshama2",
-      "email": "kshama2@prlog.org",
-      "password": "kjU6qK1Bm",
-      "avatar": "https://robohash.org/voluptatemdebitiset.png?size=50x50&set=set1",
-      "gender": "Male",
-      "phone": "676-983-4977",
-      "birthday": "1997-09-29",
-      "status": false,
-      "createdAt": 1615745961000,
-      "modifiedAt": 1615976361000
     }
   ],
   "products": [
@@ -64,7 +49,9 @@
       "concentration": "Eau de Toilette",
       "slug": "guerlain-allegoria-coconut-edt",
       "quantity": 10,
-      "status": true
+      "status": true,
+      "gender": "female",
+      "season": "spring"
     },
     {
       "id": "p2",
@@ -83,7 +70,9 @@
       "volume": "50ml",
       "slug": "givenchy-linterdit-edp",
       "quantity": 0,
-      "status": false
+      "status": false,
+      "gender": "female",
+      "season": "summer"
     },
     {
       "id": "p3",
@@ -102,7 +91,9 @@
       "volume": "30ml",
       "slug": "gucci-flora-gardenia-edp",
       "quantity": 15,
-      "status": true
+      "status": true,
+      "gender": "female",
+      "season": "winter"
     },
     {
       "id": "p4",
@@ -121,7 +112,9 @@
       "volume": "30ml",
       "slug": "yves-saint-laurent-libre-edp",
       "quantity": 20,
-      "status": true
+      "status": true,
+      "gender": "female",
+      "season": "spring"
     },
     {
       "id": "p5",
@@ -140,7 +133,9 @@
       "concentration": "Eau de Toilette",
       "slug": "armani-acqua-di-gioia-edt",
       "quantity": 0,
-      "status": true
+      "status": true,
+      "gender": "female",
+      "season": "summer"
     },
     {
       "id": "p6",
@@ -159,7 +154,177 @@
       "concentration": "Eau de Parfum",
       "slug": "guerlain-mon-edp",
       "quantity": 18,
-      "status": true
+      "status": true,
+      "gender": "female",
+      "season": "autumn"
+    },
+    {
+      "id": "p7",
+      "images": [
+        "https://ngoanpham2302.github.io/la-parfumania/images/products/dg-the-only-one.webp",
+        "https://ngoanpham2302.github.io/la-parfumania/images/detail/mon-02.webp",
+        "https://ngoanpham2302.github.io/la-parfumania/images/detail/mon-03.webp",
+        "https://ngoanpham2302.github.io/la-parfumania/images/detail/mon-04.webp",
+        "https://ngoanpham2302.github.io/la-parfumania/images/detail/mon-05.webp",
+        "https://ngoanpham2302.github.io/la-parfumania/images/detail/mon-06.webp"
+      ],
+      "brand": "Dolce&Gabbana",
+      "name": "The Only One",
+      "price": 3250000,
+      "volume": "50ml",
+      "concentration": "Eau de Parfum",
+      "slug": "dg-the-only-one-edp",
+      "quantity": 12,
+      "status": true,
+      "gender": "female",
+      "season": "autumn"
+    },
+    {
+      "id": "p8",
+      "images": [
+        "https://ngoanpham2302.github.io/la-parfumania/images/products/hermes-eau-des-erveilles-bleue.webp",
+        "https://ngoanpham2302.github.io/la-parfumania/images/detail/mon-02.webp",
+        "https://ngoanpham2302.github.io/la-parfumania/images/detail/mon-03.webp",
+        "https://ngoanpham2302.github.io/la-parfumania/images/detail/mon-04.webp",
+        "https://ngoanpham2302.github.io/la-parfumania/images/detail/mon-05.webp",
+        "https://ngoanpham2302.github.io/la-parfumania/images/detail/mon-06.webp"
+      ],
+      "brand": "Hermès",
+      "name": "Merveilles Bleue",
+      "price": 3650000,
+      "volume": "30ml",
+      "concentration": "Eau de Toilette",
+      "slug": "hermes-eau-des-merveilles-bleue-edt",
+      "quantity": 10,
+      "status": true,
+      "gender": "female",
+      "season": "autumn"
+    },
+    {
+      "id": "p9",
+      "images": [
+        "https://ngoanpham2302.github.io/la-parfumania/images/products/dior-homme-intense.webp",
+        "https://ngoanpham2302.github.io/la-parfumania/images/detail/mon-02.webp",
+        "https://ngoanpham2302.github.io/la-parfumania/images/detail/mon-03.webp",
+        "https://ngoanpham2302.github.io/la-parfumania/images/detail/mon-04.webp",
+        "https://ngoanpham2302.github.io/la-parfumania/images/detail/mon-05.webp",
+        "https://ngoanpham2302.github.io/la-parfumania/images/detail/mon-06.webp"
+      ],
+      "brand": "Christian Dior",
+      "name": "Dior Homme Intense",
+      "price": 2800000,
+      "volume": "50ml",
+      "concentration": "Eau de Parfum",
+      "slug": "dior-homme-intense-edp",
+      "quantity": 18,
+      "status": true,
+      "gender": "male",
+      "season": "winter"
+    },
+    {
+      "id": "p10",
+      "images": [
+        "https://ngoanpham2302.github.io/la-parfumania/images/products/armani-profondo-light.webp",
+        "https://ngoanpham2302.github.io/la-parfumania/images/detail/mon-02.webp",
+        "https://ngoanpham2302.github.io/la-parfumania/images/detail/mon-03.webp",
+        "https://ngoanpham2302.github.io/la-parfumania/images/detail/mon-04.webp",
+        "https://ngoanpham2302.github.io/la-parfumania/images/detail/mon-05.webp",
+        "https://ngoanpham2302.github.io/la-parfumania/images/detail/mon-06.webp"
+      ],
+      "brand": "Giorgio Armani",
+      "name": "Profondo Lights",
+      "price": 3150000,
+      "volume": "30ml",
+      "concentration": "Eau de Toilette",
+      "slug": "armani-profondo-light-edt",
+      "quantity": 18,
+      "status": true,
+      "gender": "male",
+      "season": "spring"
+    },
+    {
+      "id": "p11",
+      "images": [
+        "https://ngoanpham2302.github.io/la-parfumania/images/products/ysl-la-nuit.webp",
+        "https://ngoanpham2302.github.io/la-parfumania/images/detail/mon-02.webp",
+        "https://ngoanpham2302.github.io/la-parfumania/images/detail/mon-03.webp",
+        "https://ngoanpham2302.github.io/la-parfumania/images/detail/mon-04.webp",
+        "https://ngoanpham2302.github.io/la-parfumania/images/detail/mon-05.webp",
+        "https://ngoanpham2302.github.io/la-parfumania/images/detail/mon-06.webp"
+      ],
+      "brand": "Yves Saint Laurent",
+      "name": "La Nuit de L’Homme",
+      "price": 2275000,
+      "volume": "50ml",
+      "concentration": "Eau de Toilette",
+      "slug": "ysl-la-nuit-edt",
+      "quantity": 11,
+      "status": true,
+      "gender": "male",
+      "season": "spring"
+    },
+    {
+      "id": "p12",
+      "images": [
+        "https://ngoanpham2302.github.io/la-parfumania/images/products/paco-rabanne-invictus.webp",
+        "https://ngoanpham2302.github.io/la-parfumania/images/detail/mon-02.webp",
+        "https://ngoanpham2302.github.io/la-parfumania/images/detail/mon-03.webp",
+        "https://ngoanpham2302.github.io/la-parfumania/images/detail/mon-04.webp",
+        "https://ngoanpham2302.github.io/la-parfumania/images/detail/mon-05.webp",
+        "https://ngoanpham2302.github.io/la-parfumania/images/detail/mon-06.webp"
+      ],
+      "brand": "Paco Rabanne",
+      "name": "Invictus",
+      "price": 3150000,
+      "volume": "30ml",
+      "concentration": "Eau de Parfum",
+      "slug": "paco-rabanne-invictus-edp",
+      "quantity": 16,
+      "status": true,
+      "gender": "male",
+      "season": "summer"
+    },
+    {
+      "id": "p13",
+      "images": [
+        "https://ngoanpham2302.github.io/la-parfumania/images/products/bvlgari-man-wood-neroli.webp",
+        "https://ngoanpham2302.github.io/la-parfumania/images/detail/mon-02.webp",
+        "https://ngoanpham2302.github.io/la-parfumania/images/detail/mon-03.webp",
+        "https://ngoanpham2302.github.io/la-parfumania/images/detail/mon-04.webp",
+        "https://ngoanpham2302.github.io/la-parfumania/images/detail/mon-05.webp",
+        "https://ngoanpham2302.github.io/la-parfumania/images/detail/mon-06.webp"
+      ],
+      "brand": "Bvlgari",
+      "name": "Man Wood Neroli",
+      "price": 1750000,
+      "volume": "50ml",
+      "concentration": "Eau de Toilette",
+      "slug": "bvlgari-man-wood-neroli-edt",
+      "quantity": 18,
+      "status": true,
+      "gender": "male",
+      "season": "summer"
+    },
+    {
+      "id": "p14",
+      "images": [
+        "https://ngoanpham2302.github.io/la-parfumania/images/products/versace-pour-homme.webp",
+        "https://ngoanpham2302.github.io/la-parfumania/images/detail/mon-02.webp",
+        "https://ngoanpham2302.github.io/la-parfumania/images/detail/mon-03.webp",
+        "https://ngoanpham2302.github.io/la-parfumania/images/detail/mon-04.webp",
+        "https://ngoanpham2302.github.io/la-parfumania/images/detail/mon-05.webp",
+        "https://ngoanpham2302.github.io/la-parfumania/images/detail/mon-06.webp"
+      ],
+      "brand": "Versace",
+      "name": "Pour Homme",
+      "price": 2350000,
+      "volume": "30ml",
+      "concentration": "Eau de Parfum",
+      "slug": "versace-pour-homme-edp",
+      "quantity": 18,
+      "status": true,
+      "gender": "male",
+      "season": "spring"
     }
   ]
 }
