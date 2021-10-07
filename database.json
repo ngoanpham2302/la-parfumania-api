@@ -322,9 +322,30 @@
       "concentration": "Eau de Parfum",
       "slug": "versace-pour-homme-edp",
       "quantity": 18,
-      "status": true,
+      "status": false,
       "gender": "male",
       "season": "spring"
+    },
+    {
+      "id": "p15",
+      "images": [
+        "https://ngoanpham2302.github.io/la-parfumania/images/products/dg-the-one-edp.webp",
+        "https://ngoanpham2302.github.io/la-parfumania/images/detail/mon-02.webp",
+        "https://ngoanpham2302.github.io/la-parfumania/images/detail/mon-03.webp",
+        "https://ngoanpham2302.github.io/la-parfumania/images/detail/mon-04.webp",
+        "https://ngoanpham2302.github.io/la-parfumania/images/detail/mon-05.webp",
+        "https://ngoanpham2302.github.io/la-parfumania/images/detail/mon-06.webp"
+      ],
+      "brand": "Dolce&Gabbana",
+      "name": "The One",
+      "price": 2380000,
+      "volume": "50ml",
+      "concentration": "Eau de Parfum",
+      "slug": "dg-the-one-edp",
+      "quantity": 13,
+      "status": true,
+      "gender": "male",
+      "season": "winter"
     }
   ]
 }
